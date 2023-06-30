@@ -23,7 +23,6 @@ export const lapTop = [
 ];
 
 
-
 export const tablet = [
     {
         id: 1,
