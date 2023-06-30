@@ -9,16 +9,15 @@ const ProductListPage = ({products, addToCart, path, title}) => {
             </div>
             <div className='row mt-5'>
                 {products.map((product) => (
-                    <div key={product.id} className='col-lg-6'>
-                        <div className='product-card'>
-                            <img className='img-fluid' src={product.image} alt={product.name}/>
+                    <div key={product.id} className='col-lg-4'>
+                        <div className='product-card mt-4 rounded'>
+                            <img className='img-fluid rounded product-image' src={product.image} alt={product.name}/>
                             <div className='row mt-5 text-center'>
                                 <div className='col-12'>
                                     <h3>{product.name}</h3>
                                 </div>
-                                <div className='mt-3 col-12'>
-                                    <NavLink to={`${path}/${product.id}`}
-                                             className="btn btn-secondary btn-sm w-100">Детальніше</NavLink>
+                                <div className='col m-3'>
+                                    <NavLink to={`${path}/${product.id}`} className="btn btn-primary btn-sm">Детальніше</NavLink>
                                 </div>
                             </div>
                         </div>

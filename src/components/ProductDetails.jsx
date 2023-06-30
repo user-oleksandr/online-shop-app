@@ -33,8 +33,8 @@ const ProductDetails = ({products, onClose, onBack, addToCart, cart}) => {
                 <h5>Ціна: ${product.price}</h5>
             </div>
             <div className='row mt-5'>
-                <button className='btn btn-sm btn-secondary' onClick={goBack}>Назад</button>
-                <button className='btn btn-sm btn-secondary mt-2' onClick={handleAddToCart}>Додати в кошик</button>
+                <button className='btn btn-sm btn-primary' onClick={goBack}>Назад</button>
+                <button className='btn btn-sm btn-primary mt-2' onClick={handleAddToCart}>Додати в кошик</button>
             </div>
         </div>
     );

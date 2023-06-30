@@ -43,24 +43,24 @@ const Navigation = () => {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <NavLink exact to="/" className="nav-link" activeClassName="active">
-                                    <img className='logo-cart' src={LapTop}></img>
+                                    <img className='logo-cart' src={LapTop}></img> {' '} Ноутбуки
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink exact to="/tablet" className="nav-link" activeClassName="active">
-                                    <img className='logo-cart' src={Tablets}></img>
+                                    <img className='logo-cart' src={Tablets}></img> {' '} Планшети
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink exact to="/phones" className="nav-link" activeClassName="active">
-                                    <img className='logo-cart' src={Phones}></img>
+                                    <img className='logo-cart' src={Phones}></img> {' '} Телефони
                                 </NavLink>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <NavLink to="/cart" className="nav-link" activeClassName="active">
-                                    <img className='logo-cart' src={Cart}></img>
+                                    <img className='logo-cart' src={Cart}></img> {' '} Корзина
                                 </NavLink>
                             </li>
                         </ul>
