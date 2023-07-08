@@ -22,11 +22,11 @@ const Navigation = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    className="offcanvas offcanvas-end navigations-menu"
+                    className="offcanvas offcanvas-start navigations-menu"
                     tabIndex="-1"
                     id="navbarNav"
                     aria-labelledby="navbarNavLabel"
-                    style={{width: '20em'}}
+                    style={{width: '275px'}}
                 >
                     <div className="offcanvas-header ">
                         <h5 className="offcanvas-title text-light" id="navbarNavLabel">
