@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1fbda4fd.css",
-    "main.js": "./static/js/main.3295c290.js",
+    "main.js": "./static/js/main.b5f99073.js",
     "static/js/787.33e11199.chunk.js": "./static/js/787.33e11199.chunk.js",
     "static/media/product_shot_of_a_new_iphone_14-1200x675.png": "./static/media/product_shot_of_a_new_iphone_14-1200x675.106f294012fc202508bc.png",
     "static/media/hero_combo__fcqcc3hbzjyy_large_2x.jpg": "./static/media/hero_combo__fcqcc3hbzjyy_large_2x.8f95d9bf3a594062926f.jpg",
@@ -15,11 +15,11 @@
     "static/media/macos-14-release-date-macbook-pro.jpg": "./static/media/macos-14-release-date-macbook-pro.820b4939efcc8e6b2c70.jpg",
     "index.html": "./index.html",
     "main.1fbda4fd.css.map": "./static/css/main.1fbda4fd.css.map",
-    "main.3295c290.js.map": "./static/js/main.3295c290.js.map",
+    "main.b5f99073.js.map": "./static/js/main.b5f99073.js.map",
     "787.33e11199.chunk.js.map": "./static/js/787.33e11199.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fbda4fd.css",
-    "static/js/main.3295c290.js"
+    "static/js/main.b5f99073.js"
   ]
 }
